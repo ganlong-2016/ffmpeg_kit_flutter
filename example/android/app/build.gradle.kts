@@ -7,7 +7,7 @@ plugins {
 
 android {
     namespace = "com.example.example"
-    compileSdk = flutter.compileSdkVersion
+    compileSdk = 35
 
 
     compileOptions {
@@ -25,7 +25,7 @@ android {
         // You can update the following values to match your application needs.
         // For more information, see: https://flutter.dev/to/review-gradle-config.
         minSdk = 24
-        targetSdk = flutter.targetSdkVersion
+        targetSdk = 35
         versionCode = flutter.versionCode
         versionName = flutter.versionName
     }
@@ -35,16 +35,28 @@ android {
             isMinifyEnabled = true
             // Add your own signing config for the release build.
             // Signing with the debug keys for now, so `flutter run --release` works.
-            proguardFiles(getDefaultProguardFile("proguard-android-optimize.txt"), "proguard-rules.pro")
+            proguardFiles(
+                getDefaultProguardFile("proguard-android-optimize.txt"),
+                "proguard-rules.pro"
+            )
             signingConfig = signingConfigs.getByName("debug")
         }
         debug {
             isMinifyEnabled = false
-            proguardFiles(getDefaultProguardFile("proguard-android-optimize.txt"), "proguard-rules.pro")
+            proguardFiles(
+                getDefaultProguardFile("proguard-android-optimize.txt"),
+                "proguard-rules.pro"
+            )
             signingConfig = signingConfigs.getByName("debug")
         }
     }
+
 }
+
+dependencies {
+    // implementation(fileTree(mapOf("dir" to "libs", "include" to listOf("*.aar"))))
+}
+
 
 flutter {
     source = "../.."

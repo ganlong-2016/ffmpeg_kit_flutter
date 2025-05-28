@@ -1,3 +1,8 @@
+
+## 1.6.2
+
+* ios 使用 ffmpeg 6.0 版本
+
 ## 1.6.1
 
 * Removed manual packaging of prebuilt dependencies for Android

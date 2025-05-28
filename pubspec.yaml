@@ -1,7 +1,7 @@
-name: ffmpeg_kit_flutter_new
+name: ffmpeg_kit_flutter_new_gpl
 description: FFmpeg Kit for Flutter with Full GPL and updated bindings. Supports Android, iOS and macOS platforms.
-repository: https://github.com/sk3llo/ffmpeg_kit_flutter
-homepage: https://github.com/sk3llo/ffmpeg_kit_flutter
+repository: https://github.com/ganlong-2016/ffmpeg_kit_flutter
+homepage: https://github.com/ganlong-2016/ffmpeg_kit_flutter
 # publish_to: none
 version: 1.6.2
 

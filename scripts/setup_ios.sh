@@ -1,7 +1,8 @@
 #!/bin/bash
 
 # Download and unzip iOS framework
-IOS_URL="https://github.com/hellohejinyu/ffmpeg_kit_flutter_full_gpl/releases/download/v5.1.LTS/ffmpeg-kit-full-gpl-5.1.LTS-ios-framework.zip"
+# IOS_URL="https://github.com/hellohejinyu/ffmpeg_kit_flutter_full_gpl/releases/download/v5.1.LTS/ffmpeg-kit-full-gpl-5.1.LTS-ios-framework.zip"
+IOS_URL="https://github.com/ganlong-2016/ffmpeg_kit_flutter_full_gpl/releases/download/v6.0.LTS/ffmpeg-kit-full-gpl-6.0.LTS-ios-framework.zip"
 mkdir -p Frameworks
 curl -L $IOS_URL -o frameworks.zip
 unzip -o frameworks.zip -d Frameworks

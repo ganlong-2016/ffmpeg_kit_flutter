@@ -1,8 +1,8 @@
 PODS:
-  - ffmpeg_kit_flutter_new (1.0.0):
-    - ffmpeg_kit_flutter_new/full-gpl-lts (= 1.0.0)
+  - ffmpeg_kit_flutter_new_gpl (1.0.0):
+    - ffmpeg_kit_flutter_new_gpl/full-gpl-lts (= 1.0.0)
     - Flutter
-  - ffmpeg_kit_flutter_new/full-gpl-lts (1.0.0):
+  - ffmpeg_kit_flutter_new_gpl/full-gpl-lts (1.0.0):
     - Flutter
   - Flutter (1.0.0)
   - package_info_plus (0.4.5):
@@ -17,7 +17,7 @@ PODS:
     - Flutter
 
 DEPENDENCIES:
-  - ffmpeg_kit_flutter_new (from `.symlinks/plugins/ffmpeg_kit_flutter_new/ios`)
+  - ffmpeg_kit_flutter_new_gpl (from `.symlinks/plugins/ffmpeg_kit_flutter_new_gpl/ios`)
   - Flutter (from `Flutter`)
   - package_info_plus (from `.symlinks/plugins/package_info_plus/ios`)
   - path_provider_foundation (from `.symlinks/plugins/path_provider_foundation/darwin`)
@@ -25,8 +25,8 @@ DEPENDENCIES:
   - wakelock_plus (from `.symlinks/plugins/wakelock_plus/ios`)
 
 EXTERNAL SOURCES:
-  ffmpeg_kit_flutter_new:
-    :path: ".symlinks/plugins/ffmpeg_kit_flutter_new/ios"
+  ffmpeg_kit_flutter_new_gpl:
+    :path: ".symlinks/plugins/ffmpeg_kit_flutter_new_gpl/ios"
   Flutter:
     :path: Flutter
   package_info_plus:
@@ -39,7 +39,7 @@ EXTERNAL SOURCES:
     :path: ".symlinks/plugins/wakelock_plus/ios"
 
 SPEC CHECKSUMS:
-  ffmpeg_kit_flutter_new: 429ba648585730e5832e59365dc560fca9b5569c
+  ffmpeg_kit_flutter_new_gpl: b4823601d0e76cfc22e484a9510831b27222b732
   Flutter: e0871f40cf51350855a761d2e70bf5af5b9b5de7
   package_info_plus: c0502532a26c7662a62a356cebe2692ec5fe4ec4
   path_provider_foundation: 2b6b4c569c0fb62ec74538f866245ac84301af46

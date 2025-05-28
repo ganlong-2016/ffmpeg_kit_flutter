@@ -3,7 +3,7 @@ description: FFmpeg Kit for Flutter with Full GPL and updated bindings. Supports
 repository: https://github.com/ganlong-2016/ffmpeg_kit_flutter
 homepage: https://github.com/ganlong-2016/ffmpeg_kit_flutter
 # publish_to: none
-version: 1.6.4
+version: 1.6.5
 
 environment:
   sdk: ">=3.1.0 <4.0.0"

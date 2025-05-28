@@ -5,7 +5,7 @@
 import FlutterMacOS
 import Foundation
 
-import ffmpeg_kit_flutter_new
+import ffmpeg_kit_flutter_new_gpl
 import package_info_plus
 import path_provider_foundation
 import video_player_avfoundation
